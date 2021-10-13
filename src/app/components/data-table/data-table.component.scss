@@ -1,28 +1,31 @@
+.mat-elevation-z8{
+  bottom: 10%;
+  }
 .mat-table {
   width: 80%;
   margin: 50px auto;
   background-color: #6a8d6e;
 }
 
-.mat-sort-header-container {
-  width: 32px;
+.mat-sort { //materjalid tabeli sees
+  width: 80%;
   border-right: 1px solid currentColor;
   padding-right: 24px;
   text-align: center;
-  
-}
-
-.mat-column-demo-name {
-  padding-left: 16px;
-  font-size: 20px;
-}
-
-.mat-column-demo-weight {
   font-style: italic;
 }
 
-.mat-column-demo-symbol {
-  width: 32px;
-  text-align: center;
-  font-weight: bold;
+.mat-paginator { //lehe all paginator
+  padding-left: 16px;
+  font-size: 15px;
+  background-color: cadetblue;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
+
+.mat-header-row { //tabeli päise pealkirjad
+  font-style: italic;
+  font-size: 20px;
+}
+
