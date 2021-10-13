@@ -1,20 +1,27 @@
 <div class="filters">
-    <h2>Tooted</h2>
+    <h2>Ettevõtted</h2>
     <mat-form-field>
-        <mat-label>Vali tooteklass</mat-label>
+        <mat-label>Vali ettevõte</mat-label>
         <mat-select panelClass="sort-select" [(ngModel)]="sort">
-            <mat-option value="systlad">Süstlad</mat-option>
-            <mat-option value="kanyylid">Kanüülid</mat-option>
-            <mat-option value="kindad">Kindad</mat-option>
-            <mat-option value="kateetrid">Kateetrid</mat-option>
-            <mat-option value="kreemid">Kreemid</mat-option>
-            <mat-option value="maskid">Maskid</mat-option>
-           
+            <mat-option value="Business1">Ettevõte1</mat-option>
+            <mat-option value="Business2">Ettevõte2</mat-option>
+            <mat-option value="Business2">Ettevõte2</mat-option>
+                     
+        </mat-select>
+    </mat-form-field>
+
+    <h2>Laod</h2>
+    <mat-form-field>
+        <mat-label>Vali ladu</mat-label>
+        <mat-select panelClass="sort-select" [(ngModel)]="sort">
+            <mat-option value="WH1">Ladu1</mat-option>
+            <mat-option value="WH2">Ladu2</mat-option>
+            <mat-option value="WH3">Ladu3</mat-option>
+            <mat-option value="WH4">Ladu4</mat-option>
         </mat-select>
     </mat-form-field>
 </div>
-
-
+<!-- 
 <div class="items">
 <div class="item">
 <div class="item-thumbnail-container">
@@ -27,3 +34,4 @@
 </div>
 </div>
 </div>
+ -->

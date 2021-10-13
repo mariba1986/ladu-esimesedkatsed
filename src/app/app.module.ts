@@ -12,13 +12,18 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { DataTableComponent } from './components/data-table/data-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +35,9 @@ import { MatSelectModule } from '@angular/material/select';
     MatSelectModule,
     MatTabsModule,
     MatIconModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   exports:[
     BrowserModule,

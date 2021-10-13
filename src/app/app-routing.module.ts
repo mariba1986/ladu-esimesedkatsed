@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { DataTableComponent } from './components/data-table/data-table.component';
 
 const routes: Routes = [
 {
@@ -8,7 +9,11 @@ const routes: Routes = [
   component: HomeComponent,
 },
 {path: 'search/:game-search',
-component: HomeComponent,}
+component: HomeComponent,},
+{
+  path: '',
+  component: DataTableComponent,
+}
 ];
 
 @NgModule({
