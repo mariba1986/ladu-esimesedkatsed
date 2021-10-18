@@ -1,0 +1,33 @@
+.mat-elevation-z8{
+  bottom: 10%;
+  }
+.mat-table {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #6a8d6e;
+}
+
+.mat-sort { //materjalid tabeli sees
+  width: 80%;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: left;
+  font-style: italic;
+}
+
+.mat-paginator { //lehe all paginator
+  padding-left: 16px;
+  font-size: 15px;
+  background-color: cadetblue;
+  width: 100%;
+  
+
+}
+
+.mat-sort-header { //tabeli päise pealkirjad
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
